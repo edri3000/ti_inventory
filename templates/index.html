@@ -1,0 +1,174 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+    .see-more-notice {
+    text-align: right;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+.see-more-notice a {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+	/* Estilos existentes */
+    .status-circle { height: 15px; width: 15px; border-radius: 50%; display: inline-block; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+    .status-pending { background-color: #ccc; }
+    .status-online { background-color: #28a745; }
+    .status-offline { background-color: #dc3545; }
+    #searchInput { width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-size: 16px; }
+
+    /* --- NOVOS ESTILOS PARA O DASHBOARD --- */
+    .equipment-group {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .group-header {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 10px;
+    }
+    .group-header i {
+        margin-right: 10px;
+    }
+</style>
+
+<h1><i class="fa-solid fa-chart-pie"></i> {{ titulo }}</h1>
+
+<!-- Botão para adicionar sempre visível -->
+<a href="{{ url_for('adicionar_item') }}" class="btn btn-primary" style="margin-bottom: 20px;">Adicionar Novo Equipamento</a>
+
+{# Lógica para decidir qual view mostrar #}
+{% if view_mode == 'dashboard' %}
+
+  {# --- INÍCIO DA VIEW DE DASHBOARD (MODIFICADO) --- #}
+    {% for tipo, equipamentos_do_tipo in equipamentos_agrupados.items()|sort %}
+    <div class="equipment-group">
+        <h2 class="group-header">
+            <i class="{{ icones.get(tipo, icones.default) }}"></i>
+            {# Usa a contagem total que passamos do app.py #}
+            {{ plurais.get(tipo, tipo) }} ({{ total_por_tipo[tipo] }})
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Status</th>
+                    <th>Nome</th>
+                    <th>IP</th>
+                    <th>Setor</th>
+                    <th>Patrimônio</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for equipamento in equipamentos_do_tipo %}
+                <tr>
+                    <td><div id="status-{{ equipamento.id }}" class="status-circle status-pending" data-ip="{{ equipamento.ip }}"></div></td>
+                    <td>{{ equipamento.nome }}</td>
+                    <td>{{ equipamento.ip }}</td>
+                    <td>{{ equipamento.setor }}</td>
+                    <td>{{ equipamento.patrimonio }}</td>
+                    <td><a href="{{ url_for('editar_item', item_id=equipamento.id) }}">Editar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
+        {# --- MELHORIA 2: AVISO PARA VER MAIS ITENS --- #}
+        {% if total_por_tipo[tipo] > 5 %}
+        <p class="see-more-notice">
+            Mostrando 5 de {{ total_por_tipo[tipo] }}. 
+            <a href="{{ url_for('index', tipo=tipo) }}">Ver todos.</a>
+        </p>
+        {% endif %}
+
+    </div>
+    {% else %}
+        <p style="text-align:center; padding: 20px; color: #777;">Nenhum equipamento cadastrado ainda.</p>
+    {% endfor %}
+
+{% else %}
+
+    {# --- INÍCIO DA VIEW DE LISTA (QUANDO FILTRADO) --- #}
+    <input type="text" id="searchInput" placeholder="Buscar em {{ titulo }}...">
+    <table>
+        <thead>
+            <tr>
+                <th>Status</th>
+                <th>Nome</th>
+                <th>IP</th>
+                <th>Setor</th>
+                <th>Patrimônio</th>
+                <th>Configuração</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="inventoryTableBody">
+            {% for equipamento in equipamentos %}
+            <tr>
+                <td><div id="status-{{ equipamento.id }}" class="status-circle status-pending" data-ip="{{ equipamento.ip }}"></div></td>
+                <td>{{ equipamento.nome }}</td>
+                <td>{{ equipamento.ip }}</td>
+                <td>{{ equipamento.setor }}</td>
+                <td>{{ equipamento.patrimonio }}</td>
+                <td>{{ equipamento.configuracao }}</td>
+                <td>
+                    <a href="{{ url_for('editar_item', item_id=equipamento.id) }}">Editar</a> |
+                    <a href="{{ url_for('deletar_item', item_id=equipamento.id) }}" onclick="return confirm('Tem certeza?');">Deletar</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr><td colspan="7" style="text-align: center;">Nenhum equipamento encontrado.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endif %}
+
+<!-- O JavaScript continua o mesmo, ele funcionará para ambas as views -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const statusCircles = document.querySelectorAll('.status-circle');
+    statusCircles.forEach(circle => {
+        const ip = circle.dataset.ip;
+        const circleId = circle.id;
+        fetch(`/status/${ip}`)
+            .then(response => response.json())
+            .then(data => {
+                const currentCircle = document.getElementById(circleId);
+                if (!currentCircle) return;
+                currentCircle.classList.remove('status-pending');
+                currentCircle.classList.add(data.status === 'online' ? 'status-online' : 'status-offline');
+            })
+            .catch(error => console.error('Erro ao verificar status:', ip, error));
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        const tableBody = document.getElementById('inventoryTableBody');
+        const rows = tableBody.getElementsByTagName('tr');
+        searchInput.addEventListener('keyup', function() {
+            const filter = searchInput.value.toUpperCase();
+            for (let i = 0; i < rows.length; i++) {
+                let row = rows[i];
+                let rowData = row.textContent || row.innerText;
+                row.style.display = rowData.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+            }
+        });
+    }
+});
+</script>
+{% endblock %}
+
+---
+

@@ -1,0 +1,2477 @@
+[
+    {
+        "id": 1,
+        "tipo": "PC",
+        "nome": "PC Édri",
+        "ip": "192.168.1.58",
+        "setor": "Ti",
+        "patrimonio": "LAR 50360",
+        "configuracao": "Ultra 5 235, DDR5 16gb"
+    },
+    {
+        "id": 2,
+        "tipo": "Impressora",
+        "nome": "Canon 1643if",
+        "ip": "192.168.0.140",
+        "setor": "Faturamento",
+        "patrimonio": "NetOn 4960",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 3,
+        "tipo": "Leitor RFID",
+        "nome": "Leitor Pendura",
+        "ip": "192.168.1.250",
+        "setor": "Entrada Pendura",
+        "patrimonio": "Velumsoft",
+        "configuracao": "50.75 / Porta 01\r\n"
+    },
+    {
+        "id": 4,
+        "tipo": "Leitor RFID",
+        "nome": "Leitor Entrada Expedição",
+        "ip": "192.168.1.251",
+        "setor": "Expedição",
+        "patrimonio": "Velumsoft",
+        "configuracao": "50.14 / Porta 37\r\n"
+    },
+    {
+        "id": 5,
+        "tipo": "Leitor RFID",
+        "nome": "Leitor Entrada Cortes",
+        "ip": "192.168.1.252",
+        "setor": "Cortes",
+        "patrimonio": "Velumsoft",
+        "configuracao": "50.14 / Porta 19\r\n"
+    },
+    {
+        "id": 6,
+        "tipo": "Leitor RFID",
+        "nome": "Leitor Entrada Escaldagem",
+        "ip": "192.168.1.253",
+        "setor": "Escaldagem",
+        "patrimonio": "Velumsoft",
+        "configuracao": "50.32 / porta 22\r\n"
+    },
+    {
+        "id": 7,
+        "tipo": "Leitor RFID",
+        "nome": "Leitor Entrada Evisceração",
+        "ip": "192.168.1.254",
+        "setor": "Evisceração",
+        "patrimonio": "Velumsoft",
+        "configuracao": "50.32 / Porta 24\r\n"
+    },
+    {
+        "id": 8,
+        "tipo": "Catraca",
+        "nome": "Catraca Portaria 1",
+        "ip": "192.168.1.61",
+        "setor": "Portaria",
+        "patrimonio": "00000",
+        "configuracao": ""
+    },
+    {
+        "id": 9,
+        "tipo": "Catraca",
+        "nome": "Catraca Portaria 2",
+        "ip": "192.168.1.62",
+        "setor": "Portaria",
+        "patrimonio": "00000",
+        "configuracao": ""
+    },
+    {
+        "id": 10,
+        "tipo": "Catraca",
+        "nome": "Catraca Portaria 3",
+        "ip": "192.168.1.63",
+        "setor": "Portaria",
+        "patrimonio": "00000",
+        "configuracao": ""
+    },
+    {
+        "id": 11,
+        "tipo": "Catraca",
+        "nome": "Catraca Refeitório Branco",
+        "ip": "192.168.1.65",
+        "setor": "Refeitório",
+        "patrimonio": "00000",
+        "configuracao": ""
+    },
+    {
+        "id": 12,
+        "tipo": "Catraca",
+        "nome": "Catraca Refeitório Colorido",
+        "ip": "192.168.0.57",
+        "setor": "Refeitório",
+        "patrimonio": "00000",
+        "configuracao": ""
+    },
+    {
+        "id": 13,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR21",
+        "ip": "10.150.21.113",
+        "setor": "Adm Financeiro",
+        "patrimonio": "NetOn 4967",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 14,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.1.180",
+        "setor": "Logistica",
+        "patrimonio": "NetOn 5122 ",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 15,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.1.89",
+        "setor": "Manut. Externa",
+        "patrimonio": "NetOn 5119",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 16,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.0.175",
+        "setor": "Manutenção Liderança",
+        "patrimonio": "NetOn 5002",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 17,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR33",
+        "ip": "192.168.0.170",
+        "setor": "ADM Fomento",
+        "patrimonio": "NetOn 5118",
+        "configuracao": "Laser"
+    },
+    {
+        "id": 19,
+        "tipo": "Relogio",
+        "nome": "MANUTENÇÃO/PCM 1",
+        "ip": "192.168.1.193",
+        "setor": "Manutenção",
+        "patrimonio": "508-1437",
+        "configuracao": "Digicon - RELOGIO 06\r\n"
+    },
+    {
+        "id": 20,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES  1",
+        "ip": "192.168.0.169",
+        "setor": "Cortes",
+        "patrimonio": "Control ID",
+        "configuracao": "COI 1"
+    },
+    {
+        "id": 21,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES  2",
+        "ip": "192.168.0.165",
+        "setor": "Cortes",
+        "patrimonio": "Control ID",
+        "configuracao": "COI 2"
+    },
+    {
+        "id": 22,
+        "tipo": "Relogio",
+        "nome": "Reserva",
+        "ip": "192.168.1.190",
+        "setor": "Ti",
+        "patrimonio": "508-1444",
+        "configuracao": "DIGICON\t- RELOGIO 03\r\n"
+    },
+    {
+        "id": 23,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES 3 ",
+        "ip": "192.168.1.191",
+        "setor": "Cortes",
+        "patrimonio": "508-1442",
+        "configuracao": "DIGICON - RELOGIO 04\r\n"
+    },
+    {
+        "id": 24,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES 4",
+        "ip": "192.168.1.192",
+        "setor": "Cortes",
+        "patrimonio": "508-1439",
+        "configuracao": "DIGICON\t- RELOGIO 05\r\n"
+    },
+    {
+        "id": 25,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES 5",
+        "ip": "192.168.0.162",
+        "setor": "Cortes",
+        "patrimonio": "508-1582",
+        "configuracao": "DIGICON\t- RELOGIO 12\r\n"
+    },
+    {
+        "id": 26,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES 6",
+        "ip": "192.168.1.198",
+        "setor": "Cortes",
+        "patrimonio": "910-1521",
+        "configuracao": "DIGICON\t- RELOGIO 15\r\n"
+    },
+    {
+        "id": 27,
+        "tipo": "Relogio",
+        "nome": "ENTRADA EXPEDIÇÃO 2",
+        "ip": "192.168.0.71",
+        "setor": "Expedição",
+        "patrimonio": "508-1463",
+        "configuracao": "DIGICON\t- RELOGIO 13\r\n"
+    },
+    {
+        "id": 28,
+        "tipo": "Relogio",
+        "nome": "ENTRADA CORTES 7",
+        "ip": "192.168.1.97",
+        "setor": "Cortes",
+        "patrimonio": "1508-1646",
+        "configuracao": "DIGICON - BKP002\r\n"
+    },
+    {
+        "id": 29,
+        "tipo": "Relogio",
+        "nome": "VESTIARIO/CALDEIRA 1",
+        "ip": "192.168.1.35",
+        "setor": "Recolha/Caldeira",
+        "patrimonio": "Control ID",
+        "configuracao": "COI 3"
+    },
+    {
+        "id": 30,
+        "tipo": "Relogio",
+        "nome": "FATURAMENTO/BALANÇA",
+        "ip": "192.168.0.201",
+        "setor": "Faturamento",
+        "patrimonio": "910-1461",
+        "configuracao": "DIGICON\t- RELOGIO 10\r\n"
+    },
+    {
+        "id": 31,
+        "tipo": "Relogio",
+        "nome": "LOGISTICA/TRANSPORTES",
+        "ip": "192.168.1.194",
+        "setor": "Logistica",
+        "patrimonio": "508-1446",
+        "configuracao": "DIGICON\t- RELOGIO 07\r\n"
+    },
+    {
+        "id": 32,
+        "tipo": "Relogio",
+        "nome": "ENTRADA PORTARIA",
+        "ip": "192.168.0.212",
+        "setor": "Portaria",
+        "patrimonio": "Control ID",
+        "configuracao": "Control ID Facial"
+    },
+    {
+        "id": 33,
+        "tipo": "Relogio",
+        "nome": "CEREALISTA/OPERACIONAL",
+        "ip": "10.40.148.120",
+        "setor": "Operacional",
+        "patrimonio": "508-1445",
+        "configuracao": "DIGICON\t- RELOGIO 02\r\n"
+    },
+    {
+        "id": 34,
+        "tipo": "Relogio",
+        "nome": "UIR4 - BALANÇA",
+        "ip": "192.168.1.197",
+        "setor": "UIR4",
+        "patrimonio": "508-1440",
+        "configuracao": "DIGICON"
+    },
+    {
+        "id": 35,
+        "tipo": "PC",
+        "nome": "PC - Paulo/Rijoberto",
+        "ip": "192.168.1.100",
+        "setor": "TI",
+        "patrimonio": "LAR - 52544",
+        "configuracao": "i5-14500T / 16GB RAM"
+    },
+    {
+        "id": 36,
+        "tipo": "PC",
+        "nome": "Menor Aprendiz TI",
+        "ip": "192.168.0.183",
+        "setor": "TI",
+        "patrimonio": "LAR - 39510",
+        "configuracao": "I5 9400 , 8GB RAM"
+    },
+    {
+        "id": 37,
+        "tipo": "PC",
+        "nome": "Sala Feedback",
+        "ip": "192.168.1.215",
+        "setor": "ADM Produção",
+        "patrimonio": "Lar-39124",
+        "configuracao": "Pentium G4560 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 38,
+        "tipo": "PC",
+        "nome": "Brunna",
+        "ip": "192.168.1.165",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-38247",
+        "configuracao": "i3 9100T - 4gb DDR4\r\n"
+    },
+    {
+        "id": 39,
+        "tipo": "PC",
+        "nome": "Aprendiz Ambiental",
+        "ip": "192.168.1.153",
+        "setor": "Ambiental",
+        "patrimonio": "Lar-39025",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 40,
+        "tipo": "PC",
+        "nome": "Balança",
+        "ip": "192.168.0.219",
+        "setor": "Balança",
+        "patrimonio": "Lar-44195",
+        "configuracao": "i5 10500 - 8gb DDR4"
+    },
+    {
+        "id": 41,
+        "tipo": "PC",
+        "nome": "Caldeira Automação",
+        "ip": "192.168.0.69",
+        "setor": "Caldeira",
+        "patrimonio": "Lar-37577",
+        "configuracao": "i5 10500 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 42,
+        "tipo": "PC",
+        "nome": "Caldera cavaco",
+        "ip": "192.168.0.25",
+        "setor": "Caldeira",
+        "patrimonio": "Lar-40305",
+        "configuracao": "Pentium G3250 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 43,
+        "tipo": "PC",
+        "nome": "Andreia ",
+        "ip": "192.168.1.37",
+        "setor": "Fomento",
+        "patrimonio": "Lar-39475",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 44,
+        "tipo": "PC",
+        "nome": "Fomento",
+        "ip": "192.168.1.41",
+        "setor": "Fomento",
+        "patrimonio": "Lar-39474",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 45,
+        "tipo": "PC",
+        "nome": "Fomento",
+        "ip": "192.168.1.174",
+        "setor": "Fomento",
+        "patrimonio": "Lar-38563",
+        "configuracao": "i5 1235u  -16gb DDR4\r\n"
+    },
+    {
+        "id": 46,
+        "tipo": "PC",
+        "nome": "Bruna",
+        "ip": "192.168.1.188",
+        "setor": "Logistica",
+        "patrimonio": "Lar-39365",
+        "configuracao": "i5 9400f - 4gb DDR4\r\n"
+    },
+    {
+        "id": 47,
+        "tipo": "PC",
+        "nome": "Claudenice",
+        "ip": "192.168.1.112",
+        "setor": "Logistica",
+        "patrimonio": "Lar-30259",
+        "configuracao": "I5-13500T - 16GB RAM"
+    },
+    {
+        "id": 48,
+        "tipo": "PC",
+        "nome": "Juliano",
+        "ip": "192.168.0.225",
+        "setor": "Logistica",
+        "patrimonio": "Lar-41420",
+        "configuracao": "i3 2120 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 49,
+        "tipo": "PC",
+        "nome": "Elisangela",
+        "ip": "192.168.1.184",
+        "setor": "Logistica",
+        "patrimonio": "Lar-40114",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 50,
+        "tipo": "PC",
+        "nome": "Aprendiz Logistica",
+        "ip": "192.168.0.81",
+        "setor": "Logistica",
+        "patrimonio": "Lar-41346",
+        "configuracao": "i3 2120 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 51,
+        "tipo": "PC",
+        "nome": "Gabriela",
+        "ip": "192.168.1.111",
+        "setor": "Recolha",
+        "patrimonio": "Lar-39358",
+        "configuracao": "I3-12100T  8GB RAM"
+    },
+    {
+        "id": 52,
+        "tipo": "PC",
+        "nome": "Todos",
+        "ip": "192.168.1.22",
+        "setor": "Recolha",
+        "patrimonio": "Lar-39359",
+        "configuracao": "INTEL I5-8400  16GB RAM"
+    },
+    {
+        "id": 53,
+        "tipo": "PC",
+        "nome": "Renato",
+        "ip": "192.168.0.107",
+        "setor": "Abate",
+        "patrimonio": "Lar-39463",
+        "configuracao": "i3 4150 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 54,
+        "tipo": "PC",
+        "nome": "Abate Plataforma",
+        "ip": "192.168.0.62",
+        "setor": "Abate",
+        "patrimonio": "Lar-40512",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 55,
+        "tipo": "PC",
+        "nome": "Isabela",
+        "ip": "192.168.0.166",
+        "setor": "ADM Produção",
+        "patrimonio": "Lar-44156",
+        "configuracao": "i3 10100T 8gb DDR4\r\n"
+    },
+    {
+        "id": 56,
+        "tipo": "PC",
+        "nome": "Fernando",
+        "ip": "10.150.20.197",
+        "setor": "ADM Produção",
+        "patrimonio": "Note",
+        "configuracao": "Note"
+    },
+    {
+        "id": 57,
+        "tipo": "PC",
+        "nome": "Thaisa",
+        "ip": "192.168.1.57",
+        "setor": "ADM Produção",
+        "patrimonio": "Lar-40115",
+        "configuracao": "i5 9400F - 12gb DDR4\r\n"
+    },
+    {
+        "id": 58,
+        "tipo": "PC",
+        "nome": "Nayara",
+        "ip": "192.168.1.74",
+        "setor": "ADM Produção",
+        "patrimonio": "Lar- 40158",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 59,
+        "tipo": "PC",
+        "nome": "Thais",
+        "ip": "192.168.0.60",
+        "setor": "ADM Produção",
+        "patrimonio": "Lar-39576",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 60,
+        "tipo": "PC",
+        "nome": "Leandro",
+        "ip": "192.168.1.163",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39149",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 61,
+        "tipo": "PC",
+        "nome": "Aprendiz Almoxerifado",
+        "ip": "192.168.1.207",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-38344",
+        "configuracao": "i3 9100T - 4gb DDR4\r\n"
+    },
+    {
+        "id": 62,
+        "tipo": "PC",
+        "nome": "Bancada 1",
+        "ip": "192.168.1.162",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-46827",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 63,
+        "tipo": "PC",
+        "nome": "Bancada 2",
+        "ip": "192.168.0.129",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-46926",
+        "configuracao": "i3 2100 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 64,
+        "tipo": "PC",
+        "nome": "Bancada 3",
+        "ip": "192.168.0.151",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39990",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 65,
+        "tipo": "PC",
+        "nome": "Cleoni",
+        "ip": "192.168.0.185",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39528",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 66,
+        "tipo": "PC",
+        "nome": "Jean",
+        "ip": "192.168.0.115",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39148",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 67,
+        "tipo": "PC",
+        "nome": "José Augusto",
+        "ip": "192.168.1.161",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39146",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 68,
+        "tipo": "PC",
+        "nome": "Marcos",
+        "ip": "192.168.0.153",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-39147",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 69,
+        "tipo": "PC",
+        "nome": "Roberto Recebimento",
+        "ip": "192.168.1.164",
+        "setor": "Almoxerifado",
+        "patrimonio": "Não informado",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 70,
+        "tipo": "PC",
+        "nome": "Aprendiz Recebimento ",
+        "ip": "192.168.1.166",
+        "setor": "Almoxerifado",
+        "patrimonio": "Lar-38252",
+        "configuracao": "i3 9100T - 8gb DDR4\r\n"
+    },
+    {
+        "id": 71,
+        "tipo": "PC",
+        "nome": "Aprendiz Ambiental",
+        "ip": "192.168.0.211",
+        "setor": "Ambiental",
+        "patrimonio": "Lar-40117",
+        "configuracao": "i3 3220 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 72,
+        "tipo": "PC",
+        "nome": "Alex Manutenção",
+        "ip": "192.168.0.114",
+        "setor": "Ambiental",
+        "patrimonio": "Lar-39561",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 73,
+        "tipo": "PC",
+        "nome": "Nayane",
+        "ip": "192.168.0.98",
+        "setor": "Ambulatorio",
+        "patrimonio": "Lar-40162",
+        "configuracao": "i3 3240 - 6gb DDR3\r\n"
+    },
+    {
+        "id": 74,
+        "tipo": "PC",
+        "nome": "Exames",
+        "ip": "192.168.0.29",
+        "setor": "Ambulatorio",
+        "patrimonio": "Lar-39553",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 75,
+        "tipo": "PC",
+        "nome": "Barbara",
+        "ip": "192.168.0.128",
+        "setor": "Ambulatório",
+        "patrimonio": "Lar-39043",
+        "configuracao": "Pentium G3250 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 76,
+        "tipo": "PC",
+        "nome": "Aliceline / Alcione",
+        "ip": "192.168.1.139",
+        "setor": "Ambulatório ",
+        "patrimonio": "Lar-40051",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 77,
+        "tipo": "PC",
+        "nome": "Dra Lara",
+        "ip": "192.168.1.146",
+        "setor": "Ambulatório ",
+        "patrimonio": "Não informado",
+        "configuracao": "i5 10400 - 8gb\r\n"
+    },
+    {
+        "id": 78,
+        "tipo": "PC",
+        "nome": "Dra Raquel",
+        "ip": "192.168.0.116",
+        "setor": "Ambulatório ",
+        "patrimonio": "Não informado",
+        "configuracao": "I5 8400 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 79,
+        "tipo": "PC",
+        "nome": "Leonardo/Edilene",
+        "ip": "192.168.1.145",
+        "setor": "Ambulatório ",
+        "patrimonio": "Lar-40050",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 80,
+        "tipo": "PC",
+        "nome": "Audiometria",
+        "ip": "192.168.1.28",
+        "setor": "Audiometria",
+        "patrimonio": "Não informado",
+        "configuracao": "Pentium G3220 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 81,
+        "tipo": "PC",
+        "nome": "Carimbo",
+        "ip": "192.168.1.73",
+        "setor": "Carimbo",
+        "patrimonio": "Não informado",
+        "configuracao": "Pentium G4400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 82,
+        "tipo": "PC",
+        "nome": "Carimbo",
+        "ip": "192.168.1.172",
+        "setor": "Carimbo",
+        "patrimonio": "Lar-46969",
+        "configuracao": "i3 12100t - 8gb DDR4\r\n"
+    },
+    {
+        "id": 83,
+        "tipo": "PC",
+        "nome": "Carimbo",
+        "ip": "192.168.0.179",
+        "setor": "Carimbo",
+        "patrimonio": "Lar-CAR3",
+        "configuracao": "i5 3330 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 84,
+        "tipo": "PC",
+        "nome": "Doca CMS 20kg",
+        "ip": "192.168.1.129",
+        "setor": "CMS",
+        "patrimonio": "Lar-39523",
+        "configuracao": "Pentium G3260 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 85,
+        "tipo": "PC",
+        "nome": "Patricia",
+        "ip": "192.168.0.68",
+        "setor": "CQ UFO",
+        "patrimonio": "Lar-CQUFO",
+        "configuracao": "i3 8100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 86,
+        "tipo": "PC",
+        "nome": "CQ",
+        "ip": "192.168.1.107",
+        "setor": "CQ UFO",
+        "patrimonio": "Lar-39529",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 87,
+        "tipo": "PC",
+        "nome": "Note Automação",
+        "ip": "192.168.1.29",
+        "setor": "Elétrica",
+        "patrimonio": "Não informado",
+        "configuracao": "Alienware i7\r\n"
+    },
+    {
+        "id": 88,
+        "tipo": "PC",
+        "nome": "PC Automação/Elétrica",
+        "ip": "192.168.0.16",
+        "setor": "Elétrica",
+        "patrimonio": "Não informado",
+        "configuracao": "i7 10700 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 89,
+        "tipo": "PC",
+        "nome": "João Estocagem",
+        "ip": "Não informado",
+        "setor": "Embalagem PCE",
+        "patrimonio": "Lar-44153",
+        "configuracao": "i3 10100T 8gb DDR4\r\n"
+    },
+    {
+        "id": 90,
+        "tipo": "PC",
+        "nome": "Note Estocagem",
+        "ip": "10.150.20.218",
+        "setor": "Embalagem PCE",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 7020 12gb\r\n"
+    },
+    {
+        "id": 91,
+        "tipo": "PC",
+        "nome": "PCE",
+        "ip": "192.168.1.175",
+        "setor": "Embalagem PCE",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 2120  - 6gb DDR3\r\n"
+    },
+    {
+        "id": 92,
+        "tipo": "PC",
+        "nome": "RFID",
+        "ip": "192.168.0.119",
+        "setor": "Ergonomia",
+        "patrimonio": "Lar-39315",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 93,
+        "tipo": "PC",
+        "nome": "TVs Pausa",
+        "ip": "192.168.1.104",
+        "setor": "Ergonomia",
+        "patrimonio": "Lar-PausasTV",
+        "configuracao": " Celeron(R) N5095 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 94,
+        "tipo": "PC",
+        "nome": "Inspetores Qualidade",
+        "ip": "192.168.1.171",
+        "setor": "Expedição",
+        "patrimonio": "Lar-39319",
+        "configuracao": "i5 4440 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 95,
+        "tipo": "PC",
+        "nome": "Gleice/Ellen",
+        "ip": "192.168.1.154",
+        "setor": "Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 96,
+        "tipo": "PC",
+        "nome": "Cristiano/ Diego",
+        "ip": "192.168.1.75",
+        "setor": "Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 3240 4gb DDR3\r\n"
+    },
+    {
+        "id": 97,
+        "tipo": "PC",
+        "nome": "Doca 1",
+        "ip": "192.168.0.197",
+        "setor": "Expedição",
+        "patrimonio": "Lar-40833",
+        "configuracao": "i3 4160 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 98,
+        "tipo": "PC",
+        "nome": "Doca 2",
+        "ip": "192.168.0.199",
+        "setor": "Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 8100 - 4gb DDR4\r\n"
+    },
+    {
+        "id": 99,
+        "tipo": "PC",
+        "nome": "Doca 3",
+        "ip": "192.168.1.5",
+        "setor": "Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 8100 4gb DDR4\r\n"
+    },
+    {
+        "id": 100,
+        "tipo": "PC",
+        "nome": "Eduardo santos",
+        "ip": "192.168.1.103",
+        "setor": "Expedição",
+        "patrimonio": "Lar - 39241",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 101,
+        "tipo": "PC",
+        "nome": "PC Zebra",
+        "ip": "192.168.0.96",
+        "setor": "Expedição",
+        "patrimonio": "Lar - 40381",
+        "configuracao": "i3 2120 4gb DDR3\r\n"
+    },
+    {
+        "id": 102,
+        "tipo": "PC",
+        "nome": "Pedro H./leandro",
+        "ip": "192.168.0.143",
+        "setor": "faturamento",
+        "patrimonio": "Lar - 39363",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 103,
+        "tipo": "PC",
+        "nome": "Henrique",
+        "ip": "192.168.0.146",
+        "setor": "faturamento",
+        "patrimonio": "Lar - 39360",
+        "configuracao": "i3 3220 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 104,
+        "tipo": "PC",
+        "nome": "marcelo",
+        "ip": "192.168.1.141",
+        "setor": "faturamento",
+        "patrimonio": "Uia3-41350",
+        "configuracao": "i3 3220 - 10gb DDR3\r\n"
+    },
+    {
+        "id": 105,
+        "tipo": "PC",
+        "nome": "Gevanilson/Toninho",
+        "ip": "192.168.1.96",
+        "setor": "faturamento",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 2100 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 106,
+        "tipo": "PC",
+        "nome": "Taina",
+        "ip": "192.168.0.145",
+        "setor": "Faturamento ",
+        "patrimonio": "Lar - 39361",
+        "configuracao": "i3 4170 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 107,
+        "tipo": "PC",
+        "nome": "Isabela",
+        "ip": "192.168.0.174",
+        "setor": "financeiro",
+        "patrimonio": "Lar-39470",
+        "configuracao": "i3 4170 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 108,
+        "tipo": "PC",
+        "nome": "Commbox",
+        "ip": "192.168.60.30",
+        "setor": "Frango Vivo",
+        "patrimonio": "Lar-4803",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 109,
+        "tipo": "PC",
+        "nome": "Halal",
+        "ip": "192.168.1.218",
+        "setor": "Halal",
+        "patrimonio": "Lar-39580",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 110,
+        "tipo": "PC",
+        "nome": "Jackeline",
+        "ip": "192.168.1.90",
+        "setor": "Lavanderia",
+        "patrimonio": "Lar-39879",
+        "configuracao": "i3 10100T 8gb DDR4\r\n"
+    },
+    {
+        "id": 111,
+        "tipo": "PC",
+        "nome": "cleber",
+        "ip": "10.150.20.166",
+        "setor": "logistica",
+        "patrimonio": "47240",
+        "configuracao": "i7 - 11657 - DDR4 8gb\r\n"
+    },
+    {
+        "id": 112,
+        "tipo": "PC",
+        "nome": "Aprendiz Recolha",
+        "ip": "192.168.1.36",
+        "setor": "Recolha",
+        "patrimonio": "Lar - 46920",
+        "configuracao": ""
+    },
+    {
+        "id": 113,
+        "tipo": "PC",
+        "nome": "Caio",
+        "ip": "192.168.1.36",
+        "setor": "Recolha",
+        "patrimonio": "",
+        "configuracao": ""
+    },
+    {
+        "id": 114,
+        "tipo": "PC",
+        "nome": "Renatha",
+        "ip": "192.168.1.148",
+        "setor": "Sesmt",
+        "patrimonio": "lar - 44150",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 115,
+        "tipo": "PC",
+        "nome": "Poliana",
+        "ip": "192.168.1.147",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 39640",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 116,
+        "tipo": "PC",
+        "nome": "Dayle/Fabiano",
+        "ip": "192.168.1.132",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 40014",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 117,
+        "tipo": "PC",
+        "nome": "Milena / Aprendiz",
+        "ip": "192.168.1.138",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 40015",
+        "configuracao": "i5 9400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 118,
+        "tipo": "PC",
+        "nome": "Ederson",
+        "ip": "192.168.1.133",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 44161",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 119,
+        "tipo": "PC",
+        "nome": "João Ricardo",
+        "ip": "192.168.1.136",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 38524",
+        "configuracao": "i7 - 10700 - DDR4 16gb RTX\r\n"
+    },
+    {
+        "id": 120,
+        "tipo": "PC",
+        "nome": "Karine",
+        "ip": "192.168.0.226",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 40001",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 121,
+        "tipo": "PC",
+        "nome": "Gutiara",
+        "ip": "192.168.1.178",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 42083",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 122,
+        "tipo": "PC",
+        "nome": "Atestado",
+        "ip": "192.168.1.143",
+        "setor": "Sesmt",
+        "patrimonio": "Lar - 40052",
+        "configuracao": "i3 3240 4gb DDR3\r\n"
+    },
+    {
+        "id": 123,
+        "tipo": "PC",
+        "nome": "Fernando Selvone",
+        "ip": "192.168.1.47",
+        "setor": "Manutenção\\Elétrica",
+        "patrimonio": "Lar - 39317",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 124,
+        "tipo": "PC",
+        "nome": "Wilian Ribas",
+        "ip": "192.168.0.63",
+        "setor": "Manutenção\\Elétrica",
+        "patrimonio": "Lar - 46968",
+        "configuracao": "i3 12100 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 125,
+        "tipo": "PC",
+        "nome": "Wilian Ribas",
+        "ip": "192.168.0.63",
+        "setor": "Manutenção\\Elétrica",
+        "patrimonio": "Lar - 46968",
+        "configuracao": "i3 12100 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 126,
+        "tipo": "PC",
+        "nome": "Luciano\\Julio",
+        "ip": "192.168.1.77",
+        "setor": "Manutenção\\Elétrica",
+        "patrimonio": "Não informado",
+        "configuracao": "Pentium G3250 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 127,
+        "tipo": "PC",
+        "nome": "João Pedro",
+        "ip": "192.168.1.150",
+        "setor": "Manutenção\\Elétrica",
+        "patrimonio": "lar - 39634",
+        "configuracao": "i3 7100 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 128,
+        "tipo": "PC",
+        "nome": "Felipe",
+        "ip": "192.168.0.134",
+        "setor": "Manutenção Externa",
+        "patrimonio": "Não informado",
+        "configuracao": "NÃO INFORMADO"
+    },
+    {
+        "id": 129,
+        "tipo": "PC",
+        "nome": "Bombeiro/Monitoramento",
+        "ip": "192.168.0.148",
+        "setor": "Monitoramento",
+        "patrimonio": "Lar - 42441",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 130,
+        "tipo": "PC",
+        "nome": "Bombeiro/Monitoramento",
+        "ip": "1926.168.0.156",
+        "setor": "Monitoramento",
+        "patrimonio": "Lar - 42649",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 131,
+        "tipo": "PC",
+        "nome": "supervisorio/Cameras",
+        "ip": "192.168.1.119",
+        "setor": "Monitoramento",
+        "patrimonio": "44155",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 132,
+        "tipo": "PC",
+        "nome": "Aprendiz Operacional",
+        "ip": "10.40.148.58",
+        "setor": "Operacional",
+        "patrimonio": "Lar-41152",
+        "configuracao": "Pentium G3250 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 133,
+        "tipo": "PC",
+        "nome": "Balança Operacional",
+        "ip": "10.40.148.55",
+        "setor": "Operacional",
+        "patrimonio": "Não informado",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 134,
+        "tipo": "PC",
+        "nome": "Classificadora Operacional",
+        "ip": "10.40.148.56",
+        "setor": "Operacional",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 3220 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 135,
+        "tipo": "PC",
+        "nome": "claudio.scarpi",
+        "ip": "10.40.148.59",
+        "setor": "Operacional",
+        "patrimonio": "Lar-41154",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 136,
+        "tipo": "PC",
+        "nome": "Jean Balança",
+        "ip": "10.40.148.57",
+        "setor": "Operacional",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 137,
+        "tipo": "PC",
+        "nome": "PC Desativadora",
+        "ip": "10.40.148.65",
+        "setor": "Operacional",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 138,
+        "tipo": "PC",
+        "nome": "Doca 1",
+        "ip": "192.168.1.210",
+        "setor": "Paletização TRV",
+        "patrimonio": "UIA3-39465",
+        "configuracao": "i3 8100 - 4gb DDR4\r\n"
+    },
+    {
+        "id": 139,
+        "tipo": "PC",
+        "nome": "PC Camara 2",
+        "ip": "192.168.0.22",
+        "setor": "Paletização",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 3220 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 140,
+        "tipo": "PC",
+        "nome": "TRV",
+        "ip": "192.168.0.110",
+        "setor": "TRV (CAMERAS)",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 3240 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 141,
+        "tipo": "PC",
+        "nome": "Jhenifer",
+        "ip": "192.168.0.136",
+        "setor": "PCM",
+        "patrimonio": "Lar-40491",
+        "configuracao": "i5 9400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 142,
+        "tipo": "PC",
+        "nome": "rafael camara",
+        "ip": "192.168.0.131",
+        "setor": "PCM",
+        "patrimonio": "Lar-40491",
+        "configuracao": "i5 9400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 143,
+        "tipo": "PC",
+        "nome": "Aprendiz",
+        "ip": "10.150.20.145",
+        "setor": "PCM",
+        "patrimonio": "Lar-42022",
+        "configuracao": "Note\r\n"
+    },
+    {
+        "id": 144,
+        "tipo": "PC",
+        "nome": "Pcm",
+        "ip": "192.168.1.126",
+        "setor": "PCM",
+        "patrimonio": "Lar-39468",
+        "configuracao": "i5 9400f - 8gb DDR4\r\n"
+    },
+    {
+        "id": 145,
+        "tipo": "PC",
+        "nome": "Toten Sadege",
+        "ip": "192.168.0.77",
+        "setor": "PCM - Cortes",
+        "patrimonio": "Lar-4154",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 146,
+        "tipo": "PC",
+        "nome": "Toten Sadege",
+        "ip": "192.168.0.31",
+        "setor": "Evisceração",
+        "patrimonio": "Lar - 44158",
+        "configuracao": "i3 10100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 147,
+        "tipo": "PC",
+        "nome": "Reserva",
+        "ip": "192.168.0.133",
+        "setor": "PCM",
+        "patrimonio": "Lar-40488",
+        "configuracao": "i3 4150 - DDR3 6gb\r\n"
+    },
+    {
+        "id": 148,
+        "tipo": "PC",
+        "nome": "Reserva Sadege",
+        "ip": "192.168.1.102",
+        "setor": "PCM",
+        "patrimonio": "Lar-39963",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 149,
+        "tipo": "PC",
+        "nome": "Mariana",
+        "ip": "192.168.0.132",
+        "setor": "PCM",
+        "patrimonio": "Lar-39469",
+        "configuracao": "Pentium G3250 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 150,
+        "tipo": "PC",
+        "nome": "Luan ",
+        "ip": "192.168.0.132",
+        "setor": "PCM",
+        "patrimonio": "Lar-39469",
+        "configuracao": "i5 12400 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 151,
+        "tipo": "PC",
+        "nome": "Thiago",
+        "ip": "192.168.1.99",
+        "setor": "PCM",
+        "patrimonio": "38932",
+        "configuracao": "i5 12400 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 152,
+        "tipo": "PC",
+        "nome": "PC Sadege",
+        "ip": "192.168.1.109",
+        "setor": "PCM",
+        "patrimonio": "Lar-38934",
+        "configuracao": "i5 12400 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 153,
+        "tipo": "PC",
+        "nome": "Gabriel",
+        "ip": "192.168.1.116",
+        "setor": "PCM",
+        "patrimonio": "Lar-38934",
+        "configuracao": "i5 12400 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 154,
+        "tipo": "PC",
+        "nome": "Ryan",
+        "ip": "192.168.1.46",
+        "setor": "PCM",
+        "patrimonio": "Lar-46705",
+        "configuracao": "i5 14500t  - 16gb DDR4\r\n"
+    },
+    {
+        "id": 155,
+        "tipo": "PC",
+        "nome": "Kelly",
+        "ip": "192.168.1.76",
+        "setor": "PCP",
+        "patrimonio": "Lar - 39554",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 156,
+        "tipo": "PC",
+        "nome": "Paulo Cesar",
+        "ip": "10.150.20.212",
+        "setor": "PCP",
+        "patrimonio": "LAR - 37562",
+        "configuracao": "i5 1345 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 157,
+        "tipo": "PC",
+        "nome": "gustavo.vitture",
+        "ip": "192.168.1.118",
+        "setor": "PCP",
+        "patrimonio": "Lar - 46882",
+        "configuracao": "i5 12500 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 158,
+        "tipo": "PC",
+        "nome": "Dorcas\\rendimento",
+        "ip": "192.168.1.82",
+        "setor": "PCP",
+        "patrimonio": "Lar - 40160",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 159,
+        "tipo": "PC",
+        "nome": "wellington.oliveira",
+        "ip": "192.168.1.49",
+        "setor": "PCP",
+        "patrimonio": "Lar - 40869",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 160,
+        "tipo": "PC",
+        "nome": "Icaro Santos",
+        "ip": "192.168.1.86",
+        "setor": "PCP",
+        "patrimonio": "Lar - 46916",
+        "configuracao": "i3 12100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 161,
+        "tipo": "PC",
+        "nome": "Emerson Eiji",
+        "ip": "192.168.1.84",
+        "setor": "PCP",
+        "patrimonio": "Lar - 40869",
+        "configuracao": "i3 12100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 162,
+        "tipo": "PC",
+        "nome": "CQ",
+        "ip": "192.168.1.159",
+        "setor": "Plataforma",
+        "patrimonio": "Não informado",
+        "configuracao": " i3 10100T - 8gb DDR4\r\n"
+    },
+    {
+        "id": 163,
+        "tipo": "PC",
+        "nome": "Commbox",
+        "ip": "192.168.60.31",
+        "setor": "Portão Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 164,
+        "tipo": "PC",
+        "nome": "Controle portão",
+        "ip": "192.168.1.113",
+        "setor": "Portaria",
+        "patrimonio": "Não informado",
+        "configuracao": "Pentium G3240 - 4gb DDR3 \r\n"
+    },
+    {
+        "id": 165,
+        "tipo": "PC",
+        "nome": "Crachás",
+        "ip": "192.168.1.203",
+        "setor": "Portaria",
+        "patrimonio": "Granjeiro 0301",
+        "configuracao": "Pentium G4400 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 166,
+        "tipo": "PC",
+        "nome": "Daniel Eng Eletrico",
+        "ip": "192.168.1.142",
+        "setor": "Projetos",
+        "patrimonio": "Lar - 39951",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 167,
+        "tipo": "PC",
+        "nome": "Clovis",
+        "ip": "192.168.1.144",
+        "setor": "Projetos",
+        "patrimonio": "Lar - 53131",
+        "configuracao": "i7  ultra 265 - 32gb ram\r\n"
+    },
+    {
+        "id": 168,
+        "tipo": "PC",
+        "nome": "Rafael Bayer",
+        "ip": "192.168.0.73",
+        "setor": "Projetos",
+        "patrimonio": "Lar - 38525",
+        "configuracao": "i7 10700 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 169,
+        "tipo": "PC",
+        "nome": "Daniel Eng Civil",
+        "ip": "192.168.0.155",
+        "setor": "Projetos",
+        "patrimonio": "Lar - 42657",
+        "configuracao": "i7 10700 - 16gb DDR4\r\n"
+    },
+    {
+        "id": 170,
+        "tipo": "PC",
+        "nome": "Vitor \\ Marcos",
+        "ip": "192.168.0.209",
+        "setor": "projetos",
+        "patrimonio": "Lar - 39357",
+        "configuracao": "I3 2100 6GB\r\n"
+    },
+    {
+        "id": 171,
+        "tipo": "PC",
+        "nome": "Jean",
+        "ip": "192.168.0.95",
+        "setor": "Qualidade",
+        "patrimonio": "Não informado",
+        "configuracao": "i5 11 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 172,
+        "tipo": "PC",
+        "nome": "Catarina",
+        "ip": "192.168.1.98",
+        "setor": "Qualidade",
+        "patrimonio": "Lar-40316",
+        "configuracao": "i5 6400 - 4gb DDR4\r\n"
+    },
+    {
+        "id": 173,
+        "tipo": "PC",
+        "nome": "Inspetores",
+        "ip": "192.168.0.95",
+        "setor": "Qualidade",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 3240 - 4gb DDR4\r\n"
+    },
+    {
+        "id": 174,
+        "tipo": "PC",
+        "nome": "Thais",
+        "ip": "192.168.1.106",
+        "setor": "Qualidade",
+        "patrimonio": "Lar- 52543",
+        "configuracao": "i5 14500t  - 8gb DDR4\r\n"
+    },
+    {
+        "id": 175,
+        "tipo": "PC",
+        "nome": "Nathalia",
+        "ip": "192.168.1.186",
+        "setor": "Qualidade",
+        "patrimonio": "Lar-39555",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 176,
+        "tipo": "PC",
+        "nome": "Janete / Alessandra P.",
+        "ip": "192.168.0.168",
+        "setor": "Qualidade",
+        "patrimonio": "La-38498",
+        "configuracao": "i3 10100T 8gb DDR4\r\n"
+    },
+    {
+        "id": 177,
+        "tipo": "PC",
+        "nome": "Amanda",
+        "ip": "192.168.1.91",
+        "setor": "Qualidade",
+        "patrimonio": "Lar-39523",
+        "configuracao": "i5 9400f - 8gb DDR4\r\n"
+    },
+    {
+        "id": 178,
+        "tipo": "PC",
+        "nome": "Thiago / Higienização",
+        "ip": "192.168.1.108",
+        "setor": "Qualidade",
+        "patrimonio": "Lar-38502",
+        "configuracao": "i3 10100T 8gb DDR4\r\n"
+    },
+    {
+        "id": 179,
+        "tipo": "PC",
+        "nome": "Julia",
+        "ip": "192.168.0.160",
+        "setor": "Qualidade",
+        "patrimonio": "Lar-39316",
+        "configuracao": "i3 2120 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 180,
+        "tipo": "PC",
+        "nome": "Brenda",
+        "ip": "192.168.1.134",
+        "setor": "Qualidade",
+        "patrimonio": "Não informado",
+        "configuracao": "i5 9400f - 8gb DDR4\r\n"
+    },
+    {
+        "id": 181,
+        "tipo": "PC",
+        "nome": "Wilian",
+        "ip": "192.168.20.122",
+        "setor": "recolha",
+        "patrimonio": "Lar-37478",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 182,
+        "tipo": "PC",
+        "nome": "Recolha",
+        "ip": "192.168.1.122",
+        "setor": "Recolha",
+        "patrimonio": "Lar-46610",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 183,
+        "tipo": "PC",
+        "nome": "Leticia/Danilo/Suelen",
+        "ip": "192.168.0.177",
+        "setor": "Refeitorio",
+        "patrimonio": "Lar-44151",
+        "configuracao": "i3 10100t - 8gb DDR4\r\n"
+    },
+    {
+        "id": 184,
+        "tipo": "PC",
+        "nome": "Operação",
+        "ip": "192.168.0.43",
+        "setor": "Reuso",
+        "patrimonio": "Lar-52545",
+        "configuracao": "i5 14500t  - 8gb DDR4\r\n"
+    },
+    {
+        "id": 185,
+        "tipo": "PC",
+        "nome": "Reuso Supervisório",
+        "ip": "192.168.1.117",
+        "setor": "Reuso",
+        "patrimonio": "Não informado",
+        "configuracao": "Não Informado"
+    },
+    {
+        "id": 186,
+        "tipo": "PC",
+        "nome": "Aprendiz",
+        "ip": "192.168.1.204",
+        "setor": "Rh",
+        "patrimonio": "Lar - 39121",
+        "configuracao": "Pentium G2030 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 187,
+        "tipo": "PC",
+        "nome": "Vanessa",
+        "ip": "192.168.1.216",
+        "setor": "Rh",
+        "patrimonio": "Lar -39523",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 188,
+        "tipo": "PC",
+        "nome": "Duanny",
+        "ip": "192.168.1.182",
+        "setor": "Rh",
+        "patrimonio": "Lar - 39578",
+        "configuracao": "i5 8400 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 189,
+        "tipo": "PC",
+        "nome": "Elaine",
+        "ip": "192.168.1.219",
+        "setor": "Rh",
+        "patrimonio": "Lar - 39125",
+        "configuracao": "i3 3220 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 190,
+        "tipo": "PC",
+        "nome": "Kawane",
+        "ip": "192.168.1.214",
+        "setor": "Rh",
+        "patrimonio": "Lar - 39130",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 191,
+        "tipo": "PC",
+        "nome": "Gabriela",
+        "ip": "192.168.1.56",
+        "setor": "Rh",
+        "patrimonio": "Lar - 34625",
+        "configuracao": "i310100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 192,
+        "tipo": "Notebook",
+        "nome": "Adriana",
+        "ip": "192.168.1.128",
+        "setor": "Rh",
+        "patrimonio": "Lar-39501",
+        "configuracao": "i310100 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 193,
+        "tipo": "PC",
+        "nome": "Nadine",
+        "ip": "192.168.1.205",
+        "setor": "Rh",
+        "patrimonio": "39579",
+        "configuracao": "i5 9400F - 8gb DDR4\r\n"
+    },
+    {
+        "id": 194,
+        "tipo": "PC",
+        "nome": "Evelyn",
+        "ip": "192.168.0.206",
+        "setor": "Rh",
+        "patrimonio": "Lar - 39126",
+        "configuracao": "i3 3240 - 4gb DDR4\r\n"
+    },
+    {
+        "id": 195,
+        "tipo": "PC",
+        "nome": "supervisorio",
+        "ip": "192.168.0.139",
+        "setor": "Sala de Maquinas",
+        "patrimonio": "Não informado",
+        "configuracao": "Não Informado"
+    },
+    {
+        "id": 196,
+        "tipo": "PC",
+        "nome": "supervisorio",
+        "ip": "192.168.0.138",
+        "setor": "Sala de Máquinas",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 197,
+        "tipo": "PC",
+        "nome": "PC Reunião",
+        "ip": "192.168.1.158",
+        "setor": "Sala gerente",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 198,
+        "tipo": "PC",
+        "nome": "Mini PC Telão",
+        "ip": "192.168.1.110 ",
+        "setor": "Sala de Treinamento",
+        "patrimonio": "Lar-46613",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 199,
+        "tipo": "PC",
+        "nome": "PC Reunião",
+        "ip": "192.168.1.16",
+        "setor": "Sala Fábio",
+        "patrimonio": "Lar-49598",
+        "configuracao": "i3 12700 - 8gb DDR4\r\n"
+    },
+    {
+        "id": 200,
+        "tipo": "PC",
+        "nome": "PC CW",
+        "ip": "192.168.0.180",
+        "setor": "Secundária",
+        "patrimonio": "Lar-40512",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 201,
+        "tipo": "PC",
+        "nome": "Aprendiz Sif",
+        "ip": "192.168.0.171",
+        "setor": "SIF",
+        "patrimonio": "Lar-40116",
+        "configuracao": "Pentium g2030 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 202,
+        "tipo": "PC",
+        "nome": "Carina",
+        "ip": "192.168.1.225",
+        "setor": "SIF",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 203,
+        "tipo": "PC",
+        "nome": "Josi",
+        "ip": "192.168.1.221",
+        "setor": "SIF",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 204,
+        "tipo": "PC",
+        "nome": "Lucimar",
+        "ip": "192.168.1.224",
+        "setor": "SIF",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 205,
+        "tipo": "PC",
+        "nome": "Mariza",
+        "ip": "192.168.1.222",
+        "setor": "SIF",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 ? - 4gb DDR3\r\n"
+    },
+    {
+        "id": 206,
+        "tipo": "PC",
+        "nome": "Dr. Sif",
+        "ip": "192.168.0.120",
+        "setor": "SIF",
+        "patrimonio": "Lar-39127",
+        "configuracao": "i3 3240 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 207,
+        "tipo": "PC",
+        "nome": "PC Sala de Reuniões",
+        "ip": "192.168.0.37",
+        "setor": "SIF",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 208,
+        "tipo": "PC",
+        "nome": "RMA SORTER",
+        "ip": "192.168.0.163",
+        "setor": "Sorter TRV",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 209,
+        "tipo": "PC",
+        "nome": "PC UEA",
+        "ip": "10.40.175.55",
+        "setor": "UEA LAC 175",
+        "patrimonio": "Não informado",
+        "configuracao": "i3 7100 - 8gb DDR3\r\n"
+    },
+    {
+        "id": 210,
+        "tipo": "PC",
+        "nome": "supervisorio",
+        "ip": "192.168.0.220",
+        "setor": "UFO",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 211,
+        "tipo": "PC",
+        "nome": "Vagner",
+        "ip": "192.168.1.83",
+        "setor": "UFO",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 212,
+        "tipo": "PC",
+        "nome": "PC All in One",
+        "ip": "192.168.0.161",
+        "setor": "Estoque",
+        "patrimonio": "Lar-38468",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 213,
+        "tipo": "PC",
+        "nome": "Zebra ZT231 - Meio",
+        "ip": "192.168.0.193",
+        "setor": "Carimbo",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 214,
+        "tipo": "PC",
+        "nome": "Zebra ZT230 - Direita",
+        "ip": "192.168.0.94",
+        "setor": "Carimbo",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 215,
+        "tipo": "PC",
+        "nome": "Zebra ZT230 - Esquerda",
+        "ip": "192.168.0.87",
+        "setor": "Carimbo",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 216,
+        "tipo": "PC",
+        "nome": "Zebra ZT411 Estocagem",
+        "ip": "192.168.0.76",
+        "setor": "PCE",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 217,
+        "tipo": "PC",
+        "nome": "Zebra ZT230 Estocagem",
+        "ip": "192.168.0.142",
+        "setor": "PCE",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 218,
+        "tipo": "PC",
+        "nome": "Zebra ZT231",
+        "ip": "192.168.1.50",
+        "setor": "Expedição",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 219,
+        "tipo": "PC",
+        "nome": "Zebra ZT411",
+        "ip": "192.168.0.42",
+        "setor": "TI",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 220,
+        "tipo": "PC",
+        "nome": "Zebra ZT231",
+        "ip": "192.168.0.58",
+        "setor": "Paletização",
+        "patrimonio": "Não informado",
+        "configuracao": "Não informado"
+    },
+    {
+        "id": 221,
+        "tipo": "PC",
+        "nome": "Rodrigo /Nara",
+        "ip": "192.168.1.185",
+        "setor": "Adm Produção",
+        "patrimonio": "Lar-40113",
+        "configuracao": "i3 3240 - 4gb DDR3\r\n"
+    },
+    {
+        "id": 223,
+        "tipo": "Relogio",
+        "nome": "MANUTENÇÃO/PCM 2",
+        "ip": "192.168.1.15",
+        "setor": "Manutenção",
+        "patrimonio": "Control ID",
+        "configuracao": "Control ID Facial"
+    },
+    {
+        "id": 224,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "192.168.0.53",
+        "setor": "ADM fomento ",
+        "patrimonio": "6453",
+        "configuracao": ""
+    },
+    {
+        "id": 225,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i  - IMPREGR60",
+        "ip": "192.168.0.70",
+        "setor": "Adm Produção",
+        "patrimonio": "Não informado!",
+        "configuracao": ""
+    },
+    {
+        "id": 226,
+        "tipo": "Impressora",
+        "nome": "Driver Brother DCP-T820DW",
+        "ip": "192.168.1.125",
+        "setor": "ADM Produção",
+        "patrimonio": "7170",
+        "configuracao": ""
+    },
+    {
+        "id": 227,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR02",
+        "ip": "192.168.1.167",
+        "setor": "Almox - Recebimento",
+        "patrimonio": "5131",
+        "configuracao": ""
+    },
+    {
+        "id": 228,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR01",
+        "ip": "192.168.1.160",
+        "setor": "Almoxarifado",
+        "patrimonio": "5127",
+        "configuracao": ""
+    },
+    {
+        "id": 229,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGP",
+        "ip": "10.150.21.191",
+        "setor": "Ambiental",
+        "patrimonio": "5125",
+        "configuracao": ""
+    },
+    {
+        "id": 230,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR40",
+        "ip": "192.168.1.140",
+        "setor": "Ambulatório",
+        "patrimonio": "5015",
+        "configuracao": ""
+    },
+    {
+        "id": 231,
+        "tipo": "Impressora",
+        "nome": "Canon GX6010 Colorida",
+        "ip": "USB  1.146",
+        "setor": "Ambulatório/Médicas",
+        "patrimonio": "5015",
+        "configuracao": ""
+    },
+    {
+        "id": 232,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "10.150.20.113",
+        "setor": "Balança",
+        "patrimonio": "5087",
+        "configuracao": ""
+    },
+    {
+        "id": 233,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "Não informado",
+        "setor": "Cozinha",
+        "patrimonio": "8513",
+        "configuracao": ""
+    },
+    {
+        "id": 234,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.1.71",
+        "setor": "Expedição",
+        "patrimonio": "1209",
+        "configuracao": ""
+    },
+    {
+        "id": 235,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR32",
+        "ip": "192.168.0.147",
+        "setor": "Faturamento",
+        "patrimonio": "5325",
+        "configuracao": ""
+    },
+    {
+        "id": 236,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR31",
+        "ip": "192.168.0.140",
+        "setor": "Faturamento",
+        "patrimonio": "4960",
+        "configuracao": ""
+    },
+    {
+        "id": 237,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T830DW",
+        "ip": "10.150.21.143",
+        "setor": "Gerência",
+        "patrimonio": "8836",
+        "configuracao": ""
+    },
+    {
+        "id": 238,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "Não informado",
+        "setor": "Halal",
+        "patrimonio": "5253",
+        "configuracao": ""
+    },
+    {
+        "id": 239,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR70",
+        "ip": "192.168.1.180",
+        "setor": "Logistica",
+        "patrimonio": "5122",
+        "configuracao": ""
+    },
+    {
+        "id": 240,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.1.89",
+        "setor": "Manut. Ext Felipe",
+        "patrimonio": "5119",
+        "configuracao": ""
+    },
+    {
+        "id": 241,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGM",
+        "ip": "10.40.148.170",
+        "setor": "Operacional ",
+        "patrimonio": "8525",
+        "configuracao": ""
+    },
+    {
+        "id": 242,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR10",
+        "ip": "10.40.148.171",
+        "setor": "Operacional ",
+        "patrimonio": "5130",
+        "configuracao": ""
+    },
+    {
+        "id": 243,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR80",
+        "ip": "192.168.0.130",
+        "setor": "PCM",
+        "patrimonio": "4970",
+        "configuracao": ""
+    },
+    {
+        "id": 244,
+        "tipo": "Impressora",
+        "nome": "Canon GX6010 Colorida",
+        "ip": "192.168.1.157",
+        "setor": "PCM André Gaspar",
+        "patrimonio": "Não informado",
+        "configuracao": ""
+    },
+    {
+        "id": 245,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "10.150.20.220",
+        "setor": "PCP",
+        "patrimonio": "7272",
+        "configuracao": ""
+    },
+    {
+        "id": 246,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "10.150.20.203",
+        "setor": "Plataforma CQ",
+        "patrimonio": "Não informado",
+        "configuracao": ""
+    },
+    {
+        "id": 247,
+        "tipo": "Impressora",
+        "nome": "Brother J6955DW",
+        "ip": "192.168.0.99",
+        "setor": "Projetos",
+        "patrimonio": "Não informado",
+        "configuracao": ""
+    },
+    {
+        "id": 248,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR91",
+        "ip": "192.168.1.94",
+        "setor": "Qualidade",
+        "patrimonio": "8523",
+        "configuracao": ""
+    },
+    {
+        "id": 249,
+        "tipo": "Impressora",
+        "nome": "Xerox Colorida C8055",
+        "ip": "192.168.1.211",
+        "setor": "Qualidade",
+        "patrimonio": "6631",
+        "configuracao": ""
+    },
+    {
+        "id": 250,
+        "tipo": "Impressora",
+        "nome": "Xerox Colorida C7020",
+        "ip": "Reserva 1.211",
+        "setor": "Qualidade",
+        "patrimonio": "3726",
+        "configuracao": ""
+    },
+    {
+        "id": 251,
+        "tipo": "Impressora",
+        "nome": "Canon GX6010 Colorida",
+        "ip": "Reserva 1.236",
+        "setor": "Qualidade",
+        "patrimonio": "Não informado",
+        "configuracao": ""
+    },
+    {
+        "id": 252,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR6",
+        "ip": "192.168.1.149",
+        "setor": "Recolha",
+        "patrimonio": "5254",
+        "configuracao": ""
+    },
+    {
+        "id": 253,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "10.150.20.234",
+        "setor": "Reuso",
+        "patrimonio": "5088",
+        "configuracao": ""
+    },
+    {
+        "id": 254,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i RH2",
+        "ip": "192.168.1.199",
+        "setor": "RH",
+        "patrimonio": "7301",
+        "configuracao": ""
+    },
+    {
+        "id": 255,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR43",
+        "ip": "192.168.1.156",
+        "setor": "RH",
+        "patrimonio": "5327",
+        "configuracao": ""
+    },
+    {
+        "id": 256,
+        "tipo": "Impressora",
+        "nome": "Xerox Colorida C7120",
+        "ip": "192.168.1.179",
+        "setor": "RH",
+        "patrimonio": "7313",
+        "configuracao": ""
+    },
+    {
+        "id": 257,
+        "tipo": "Impressora",
+        "nome": "Datacard Crachás",
+        "ip": "USB",
+        "setor": "RH",
+        "patrimonio": "3663",
+        "configuracao": ""
+    },
+    {
+        "id": 258,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR42",
+        "ip": "192.168.1.212",
+        "setor": "RH - Porta",
+        "patrimonio": "5041",
+        "configuracao": ""
+    },
+    {
+        "id": 259,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "10.150.21.104",
+        "setor": "Sala de Máquinas",
+        "patrimonio": "5072",
+        "configuracao": ""
+    },
+    {
+        "id": 260,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i IMPREGR45",
+        "ip": "192.168.1.130",
+        "setor": "Sesmt",
+        "patrimonio": "5060",
+        "configuracao": ""
+    },
+    {
+        "id": 261,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T830DW",
+        "ip": "192.168.0.52",
+        "setor": "Sesmt",
+        "patrimonio": "8663",
+        "configuracao": ""
+    },
+    {
+        "id": 262,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T830DW",
+        "ip": "10.150.21.181",
+        "setor": "SIF ",
+        "patrimonio": "8784",
+        "configuracao": ""
+    },
+    {
+        "id": 263,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.0.121",
+        "setor": "SIF - Lucimar",
+        "patrimonio": "7276",
+        "configuracao": ""
+    },
+    {
+        "id": 264,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR92",
+        "ip": "192.168.1.220",
+        "setor": "SIF",
+        "patrimonio": "7276",
+        "configuracao": ""
+    },
+    {
+        "id": 265,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "10.150.20.210",
+        "setor": "UFO",
+        "patrimonio": "7280",
+        "configuracao": ""
+    },
+    {
+        "id": 266,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR14",
+        "ip": "192.168.1.181",
+        "setor": "UFO Qualidade",
+        "patrimonio": "8703",
+        "configuracao": ""
+    },
+    {
+        "id": 267,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR52",
+        "ip": "192.168.1.42",
+        "setor": "Fábrica de Ração - Exped",
+        "patrimonio": "7295",
+        "configuracao": ""
+    },
+    {
+        "id": 268,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR50 ",
+        "ip": "192.168.1.30",
+        "setor": "Fabrica de Ração - PCM",
+        "patrimonio": "4966",
+        "configuracao": ""
+    },
+    {
+        "id": 269,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "192.168.0.158",
+        "setor": "Fabrica de Ração - PCM",
+        "patrimonio": "6536",
+        "configuracao": ""
+    },
+    {
+        "id": 270,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR51",
+        "ip": "192.168.1.213",
+        "setor": "Fábrica de Ração - Adm",
+        "patrimonio": "5002",
+        "configuracao": ""
+    },
+    {
+        "id": 271,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "192.168.1.234",
+        "setor": "Fábrica de Ração - Adm",
+        "patrimonio": "8783",
+        "configuracao": ""
+    },
+    {
+        "id": 272,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i ",
+        "ip": "192.168.1.40",
+        "setor": "Fabrica de Ração - Bal",
+        "patrimonio": "8372",
+        "configuracao": ""
+    },
+    {
+        "id": 273,
+        "tipo": "Impressora",
+        "nome": "Canon iR1643i - IMPREGR12",
+        "ip": "192.168.1.88",
+        "setor": "Fabrica de Ração - Prod",
+        "patrimonio": "1643",
+        "configuracao": ""
+    },
+    {
+        "id": 274,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T820DW",
+        "ip": "192.168.1.34",
+        "setor": "Fabrica de Ração - Prod",
+        "patrimonio": "6971",
+        "configuracao": ""
+    },
+    {
+        "id": 275,
+        "tipo": "Impressora",
+        "nome": "Brother DCP-T830DW",
+        "ip": "192.168.1.105",
+        "setor": "Fabrica de Ração - CQ",
+        "patrimonio": "5667",
+        "configuracao": ""
+    },
+    {
+        "id": 276,
+        "tipo": "Relogio",
+        "nome": "ENTRADA EXPEDIÇÃO 1",
+        "ip": "192.168.0.51",
+        "setor": "Expedição",
+        "patrimonio": "Control ID",
+        "configuracao": "Control ID Facial"
+    },
+    {
+        "id": 277,
+        "tipo": "Relogio",
+        "nome": "VESTIARIO/CALDEIRA 2",
+        "ip": "192.168.0.45",
+        "setor": "Recolha/Caldeira",
+        "patrimonio": "Control ID",
+        "configuracao": "Control ID Facial"
+    }
+]

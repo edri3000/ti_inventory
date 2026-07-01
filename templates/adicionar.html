@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Adicionar Novo Equipamento</h1>
+    <form method="post">
+        <label for="tipo">Tipo de Equipamento:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="" disabled selected>-- Selecione um tipo --</option>
+            <!-- Você pode pré-definir os tipos mais comuns -->
+            <option value="PC">PCs</option>
+            <option value="Notebook">Notebooks</option>
+            <option value="Impressora">Impressoras</option>
+            <option value="Switch">Switchs</option>
+            <option value="Roteador">Roteadores</option>
+            <option value="Servidor">Servidores</option>
+            <option value="Leitor RFID">Leitores RFID</option> 
+            <option value="Catraca">Catracas</option>  
+			<option value="Relogio">Relógios</option> 			
+        </select>
+
+        <label for="nome">Nome do Equipamento:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="ip">Endereço IP:</label>
+        <input type="text" id="ip" name="ip" required>
+
+        <label for="setor">Setor:</label>
+        <input type="text" id="setor" name="setor" required>
+
+        <label for="patrimonio">Patrimônio:</label>
+        <input type="text" id="patrimonio" name="patrimonio">
+
+        <label for="configuracao">Configuração:</label>
+        <textarea id="configuracao" name="configuracao" rows="4"></textarea>
+
+        <button type="submit" class="btn">Adicionar</button>
+        <a href="{{ request.referrer or url_for('index') }}" class="btn btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

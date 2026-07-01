@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Editar Equipamento: {{ item.nome }}</h1>
+    <form method="post">
+        <label for="tipo">Tipo de Equipamento:</label>
+        <select id="tipo" name="tipo" required>
+             {% for tipo_opcao in ['PC', 'Notebook', 'Impressora', 'Switch', 'Roteador', 'Servidor', 'Leitor RFID', 'Catraca', 'Relogio'] %}
+                <option value="{{ tipo_opcao }}" {% if tipo_opcao == item.tipo %}selected{% endif %}>
+                    {{ tipo_opcao }}
+                </option>
+            {% endfor %}
+        </select>
+        
+        <label for="nome">Nome do Equipamento:</label>
+        <input type="text" id="nome" name="nome" value="{{ item.nome }}" required>
+
+        <label for="ip">Endereço IP:</label>
+        <input type="text" id="ip" name="ip" value="{{ item.ip }}" required>
+
+        <label for="setor">Setor:</label>
+        <input type="text" id="setor" name="setor" value="{{ item.setor }}" required>
+
+        <label for="patrimonio">Patrimônio:</label>
+        <input type="text" id="patrimonio" name="patrimonio" value="{{ item.patrimonio }}">
+
+        <label for="configuracao">Configuração:</label>
+        <textarea id="configuracao" name="configuracao" rows="4">{{ item.configuracao }}</textarea>
+
+        <button type="submit" class="btn">Salvar Alterações</button>
+        <a href="{{ url_for('index', tipo=item.tipo) }}" class="btn btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}
